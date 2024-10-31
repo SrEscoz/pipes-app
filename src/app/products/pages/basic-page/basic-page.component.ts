@@ -7,4 +7,12 @@ import {Component} from '@angular/core';
 })
 export class BasicPageComponent {
 
+	public nameLower = 'Escoz';
+	public nameUper = 'ESCOZ';
+	public fullName = 'EScoz VILches';
+
+	public primaryBorder = {
+		'border': '1px solid var(--primary-color)'
+	};
+
 }
